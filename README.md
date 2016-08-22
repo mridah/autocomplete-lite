@@ -4,7 +4,7 @@ A lightweight autocomplete plugin using JQuery
 ## how to use :
 
 1. Load JQuery library
-2. Load mrid-autocomplete.js library
+2. Load *autocomplete-lite.js* library
 3. Initialize autocomplete on element and pass autocomplete list as an array
    ```
    $('#jquery_object').autocomplete_init(data_array);
@@ -13,7 +13,7 @@ A lightweight autocomplete plugin using JQuery
 ######    EXAMPLE :
 ```
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-   <script src="mrid-autocomplete.js"></script>
+   <script src="autocomplete-lite.js"></script>
 
    <input type="text" id="autocomplete_input">
 
