@@ -1,6 +1,8 @@
 # autocomplete-lite
 A lightweight autocomplete plugin using JQuery
 
+[DEMO](https://jsfiddle.net/pjtnpLn7/)
+
 ## how to use :
 
 1. Load JQuery library
