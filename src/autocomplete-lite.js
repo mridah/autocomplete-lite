@@ -4,13 +4,13 @@
     HOW TO USE :
 
         >> Load JQuery library
-        >> Load mrid-autocomplete.js library
+        >> Load autocomplete-lite.js library
         >> Initialize autocomplete on element and pass autocomplete list as an array
      
            EXAMPLE :
 
                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-               <script src="mrid-autocomplete.js"></script>
+               <script src="autocomplete-lite.js"></script>
 
                <input type="text" id="autocomplete_input">
 
