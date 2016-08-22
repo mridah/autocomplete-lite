@@ -1,2 +1,25 @@
 # autocomplete-lite
-A lightweight JQuery autocomplete plugin
+A lightweight autocomplete plugin using JQuery
+
+## how to use :
+
+1) Load JQuery library
+2) Load mrid-autocomplete.js library
+3) Initialize autocomplete on element and pass autocomplete list as an array
+   ```
+   $('#jquery_object').autocomplete_init(data_array);
+   ```
+
+   EXAMPLE :
+```
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+   <script src="mrid-autocomplete.js"></script>
+
+   <input type="text" id="autocomplete_input">
+
+   <script>
+       // initializing
+
+       $('#autocomplete_input').autocomplete_init(["aaa", "bbb", "ccc", "ddd", "eee", "fff"]);
+   </script>
+```
