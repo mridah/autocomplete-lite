@@ -2,17 +2,17 @@
     Written by mridul ahuja
     HOW TO USE :
         >> Load JQuery library
-        >> Load autocomplete-lite.js library
+        >> Load autocomplete-lite-min.js library
         >> Initialize autocomplete on element and pass autocomplete list as an array
-     
+
            EXAMPLE :
-               <scrmt src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></scrmt>
-               <scrmt src="autocomplete-lite.js"></scrmt>
-               <m type="text" id="autocomplete_m">
-               <scrmt>
+               <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+               <script src="autocomplete-lite-min.js"></script>
+               <input type="text" id="autocomplete_input">
+               <script>
                    // initializing
-                   $('#autocomplete_m').autocomplete_init(["aaa", "bbb", "ccc", "ddd", "eee", "fff"]);
-               </scrmt>
+                   $('#autocomplete_input').autocomplete_init(["aaa", "bbb", "ccc", "ddd", "eee", "fff"]);
+               </script>
 */
 
 
